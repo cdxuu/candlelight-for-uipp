@@ -1,0 +1,24 @@
+BACKUP ~candlelight-for-uipp/backup~
+AUTHOR ~cdx~
+VERSION ~0.1.0~
+
+LANGUAGE
+	~English~
+  ~candlelight-for-uipp/tra/english~
+  ~candlelight-for-uipp/tra/english/english.tra~
+
+
+BEGIN @1 DESIGNATED 0
+LABEL uu-candlelight-for-uipp-main
+
+REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @2
+
+// Dragonspear UI++ doesn't specify LABEL or DESIGNATED, it's first component
+// is optional, the main component is number 1
+REQUIRE_PREDICATE MOD_IS_INSTALLED ~dragonspear_ui++.tp2~ ~1~ @3
+
+COPY ~candlelight-for-uipp/content-common/all~ ~override~
+
+ACTION_IF GAME_IS ~bg2ee eet~ OR NOT GAME_INCLUDES ~sod~ BEGIN
+  COPY ~candlelight-for-uipp/content-common/eet-bg2~ ~override~
+END
