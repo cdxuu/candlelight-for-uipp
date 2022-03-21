@@ -1,4 +1,4 @@
-Candlelight mod for Dragonspear UI++ mod
+Candlelight reskin mod for Pecca's Dragonspear UI++ mod
 
 Author: cdx
 Version: 0.2.0
