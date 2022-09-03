@@ -1,14 +1,14 @@
 Candlelight reskin mod for Pecca's Dragonspear UI++ mod
 
 Author: cdx
-Version: 0.2.0
+Version: 0.2.1
 
 
 Overview:
 
 The Candlelight mod changes the color of Dragonspear UI++ mod interface. Most 
 big elements are recolored. Smaller UI elements remain unchanged. It should 
-look consistent enough, but it is not a full recolor.
+look consistent enough, but it is not a full recolor and will stay incomplete.
 
 
 Compatibility:
@@ -35,6 +35,10 @@ IE Mods and Tutorials - IE modding community
 
 
 Version history:
+
+0.2.1:
+- Fix: add background for item ability screen (UI++ bug?)
+- Change: parchment color of snowbright skin to better fit theme
 
 0.2.0:
 - Added Snowbright skin
